@@ -1,0 +1,11 @@
+C:\dev\HttpPracticeConsoleApp\bin\Debug\netcoreapp2.0\HttpPracticeConsoleApp.deps.json
+C:\dev\HttpPracticeConsoleApp\bin\Debug\netcoreapp2.0\HttpPracticeConsoleApp.runtimeconfig.json
+C:\dev\HttpPracticeConsoleApp\bin\Debug\netcoreapp2.0\HttpPracticeConsoleApp.runtimeconfig.dev.json
+C:\dev\HttpPracticeConsoleApp\bin\Debug\netcoreapp2.0\HttpPracticeConsoleApp.dll
+C:\dev\HttpPracticeConsoleApp\bin\Debug\netcoreapp2.0\HttpPracticeConsoleApp.pdb
+C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.csproj.CoreCompileInputs.cache
+C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.AssemblyInfoInputs.cache
+C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.AssemblyInfo.cs
+C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.dll
+C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.pdb
+C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.csprojResolveAssemblyReference.cache
