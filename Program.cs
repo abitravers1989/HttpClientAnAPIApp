@@ -4,6 +4,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Json;
+using HttpPracticeConsoleApp;
 
 
 namespace WebAPIClient
@@ -26,12 +27,17 @@ namespace WebAPIClient
                 new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
             client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
 
-            var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
+            var serializer = new DataContractJsonSerializer(typeof(List<repo>));
 
-          //  var streamTask = client.GetStreamAsync("https://api.github.com/orgs/dotnet/repos")
 
-            var msg = await stringTask;
-            Console.WriteLine(msg);
+            var streamTask = client.GetStreamAsync("https://api.github.com/orgs/dotnet/repos");
+            var repositories = serializer.ReadObject(await streamTask) as List<repo>;
+
+            foreach (var repo in repositories)
+            {
+                Console.WriteLine(repo.name);
+            }
+            
         }
     }
 }
