@@ -8,4 +8,3 @@ C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.Ass
 C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.AssemblyInfo.cs
 C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.dll
 C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.pdb
-C:\dev\HttpPracticeConsoleApp\obj\Debug\netcoreapp2.0\HttpPracticeConsoleApp.csprojResolveAssemblyReference.cache
